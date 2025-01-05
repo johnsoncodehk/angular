@@ -45,7 +45,7 @@ export default defineConfig([
     ],
   },
   {
-    include: ['**/*.ts'],
+    include: ['**/*.ts', '**/*.cts', '**/*.mts', '**/*.tsx'],
     exclude,
     rules: await importRules(
       {
@@ -131,7 +131,7 @@ export default defineConfig([
     ),
   },
   {
-    include: ['**/*.js'],
+    include: ['**/*.js', '**/*.cjs', '**/*.mjs', '**/*.jsx'],
     exclude,
     rules: await importRules(
       {
