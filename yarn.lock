@@ -3650,48 +3650,48 @@
     "@ts-graphviz/ast" "^2.0.6"
     "@ts-graphviz/common" "^2.1.5"
 
-"@tsslint/cli@^1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@tsslint/cli/-/cli-1.5.2.tgz#1100ce2b4d9790456d571625ffb00e794f6acbc2"
-  integrity sha512-6l4mgpKQAHHnQP5cM6BfhZI3EAgPz0rkMF/ZW2qOsi7TNo3dZtmOwOY/u4XpIb2+ni70cmVPPlM5G8GohLZHkw==
+"@tsslint/cli@^1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@tsslint/cli/-/cli-1.5.3.tgz#6f69e8832df5a87edc7d5a3f1601f0a9c6b56079"
+  integrity sha512-CmOrMjT9bjolX0IUemoqLict2YHxadQxs8rF8vmL01ydQr69KZiw6RkClJ0fXmuXbNsba54+BXfVTBH6umsDcw==
   dependencies:
     "@clack/prompts" "^0.8.2"
-    "@tsslint/config" "1.5.2"
-    "@tsslint/core" "1.5.2"
+    "@tsslint/config" "1.5.3"
+    "@tsslint/core" "1.5.3"
     "@volar/language-core" "~2.4.0"
     "@volar/typescript" "~2.4.0"
     glob "^10.4.1"
     json5 "^2.2.3"
 
-"@tsslint/config@1.5.2", "@tsslint/config@^1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@tsslint/config/-/config-1.5.2.tgz#77764a7b446beb500abbda4815d9731b1f006bf4"
-  integrity sha512-7XSpO9Ql9WieTrQRX7YZU8K348KH5/eJaIIPLQS3sxoPvQWwoTOheSpD9jdE9LM2twj4gIZy1f61Di+TjOWmsQ==
+"@tsslint/config@1.5.3", "@tsslint/config@^1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@tsslint/config/-/config-1.5.3.tgz#579a85dbcdad3eae2deda9310e1075054c9694da"
+  integrity sha512-yKE3+5GdzUabxlkpZ4iu2jcmQFSWo3Q9u99prOYftBcvUpM7ei855pGjRv28PZ6puAaIP6Zb3uk0SfmIiPhCIQ==
   dependencies:
-    "@tsslint/types" "1.5.2"
+    "@tsslint/types" "1.5.3"
     ts-api-utils "^2.0.0"
 
-"@tsslint/core@1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@tsslint/core/-/core-1.5.2.tgz#9ee82e32521ed0680b7eb299da62ec6edbb5ec2b"
-  integrity sha512-VaoLqxA629p3Y2ksdvXeeRsUXOydE5sVC5cVka4LZO5Y7TaGYx9APpbjkmoyXqTxaKN3WY9TsDy0qtZoxkK/Vg==
+"@tsslint/core@1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@tsslint/core/-/core-1.5.3.tgz#1c86fcc6b383028f4ae6988988d24433edb1b02d"
+  integrity sha512-sMh6oA2Skzj+8GDvL3LLQDwH+9/lrCS9lzBPsgTXNdW9bIr4jT0I5jvholcXNOnpN4ahU+uNxy2yhnhn4vhk5A==
   dependencies:
-    "@tsslint/types" "1.5.2"
+    "@tsslint/types" "1.5.3"
     error-stack-parser "^2.1.4"
     esbuild ">=0.17.0"
     minimatch "^10.0.1"
 
-"@tsslint/tslint@^1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@tsslint/tslint/-/tslint-1.5.2.tgz#106016ec363ba980884051d94d7835b697949ac0"
-  integrity sha512-ks6IOwYqH2xi4n5QGkAZKPiDBFcECYY0Nmtb3yuSsAnTbhimfCz9HZyuCL24JXImTRGk+ejmm1N/ylAB6nDCOA==
+"@tsslint/tslint@^1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@tsslint/tslint/-/tslint-1.5.3.tgz#78bbb09674361a49977e8b9708b16229a99656d6"
+  integrity sha512-r6CyH5Kc4ZIYPj/JpUaImc0qKqTczFThizSUtpITjYSiPVf27Y4rmZ6JSn6fQb3FC28Xgh3ovDNZLK/ZLvHPPg==
   dependencies:
     tslint "^6.0.0"
 
-"@tsslint/types@1.5.2":
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/@tsslint/types/-/types-1.5.2.tgz#1e205ece57d999b221b2174b7168e196bd2a98ae"
-  integrity sha512-AGjQhweUAX7IWuVzy8beok3FUcYehNIdjJihWMvu8lWNd1+xDTY2rPYEUhwswxWZSx/DReVSIk8eAHcwCN0q0A==
+"@tsslint/types@1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@tsslint/types/-/types-1.5.3.tgz#7bb7d6a5189956c9c6d7329aec4f7d45b81eb864"
+  integrity sha512-EbYtrbp5eV+La6LNZv0QdL1mvA9eT1Jlz8jcfinCaPic5a4RmpMgx2S+A1jrDOCWw7Yk7ul4+Km4GzDcHVsvzA==
 
 "@tufjs/canonical-json@2.0.0":
   version "2.0.0"
