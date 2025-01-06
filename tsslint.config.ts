@@ -39,6 +39,7 @@ const exclude = [
 
 export default defineConfig([
   {
+    exclude,
     plugins: [
       createIgnorePlugin('tslint:disable-next-line:?', false),
       createIgnorePlugin(['tslint:disable:?', 'tslint:enable:?'], false),
